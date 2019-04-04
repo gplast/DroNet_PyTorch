@@ -273,7 +273,7 @@ def create_modules(blocks):
             
             
         else:
-            print("Something I dunno")
+            print("Something I dunno" + x["type"])
             assert False
 
 
