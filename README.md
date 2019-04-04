@@ -13,19 +13,19 @@ Using PyTorch 0.3 will break the detector.
 
 Clone, and `cd` into the repo directory. 
 
-###DroNet_car
+### DroNet_car
 
 ```
 python3 video_demo.py --cfg cfg/DroNet_car.cfg --weights cfg/DroNet_car.weights --video Car_Parking.mov --classes 2
 ```
 
-###DroNetV3_car
+### DroNetV3_car
 
 ```
 python3 video_demo.py --cfg cfg/DroNetV3_car.cfg --weights cfg/DroNetV3_car.weights --video Car_Parking.mov --classes 2
 ```
 
-###DroNetV3_car
+### DroNetV3_car
 
 ```
 python3 video_demo.py --cfg cfg/DroNetV3_car.cfg --weights cfg/DroNetV3_car.weights --video Car_Crossroad.mp4 --classes 2 --reso 1024
