@@ -9,13 +9,7 @@ This repository is based on [pytorch-yolo-v3](https://github.com/ayooshkathuria/
 
 Using PyTorch 0.3 will break the detector.
 
-
-
-## Detection Example
-
 ## Running the detector
-
-### On single or multiple images
 
 Clone, and `cd` into the repo directory. 
 
