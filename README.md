@@ -7,6 +7,13 @@ This repository is based on [pytorch-yolo-v3](https://github.com/ayooshkathuria/
 2. OpenCV
 3. PyTorch 0.4
 
+## Installation
+
+```
+sudo -H pip3 install torch==0.4.0
+
+```
+
 Using PyTorch 0.3 will break the detector.
 
 ## Running the detector
@@ -16,7 +23,7 @@ Clone, and `cd` into the repo directory.
 ### DroNet_car
 
 ```
-python3 video_demo.py --cfg cfg/DroNet_car.cfg --weights cfg/DroNet_car.weights --video Car_Parking.mov --classes 2
+python3 video_demo.py --cfg cfg/DroNet_car.cfg --weights cfg/DroNet_car.weights --video Car_Parking.mov --classes 1
 ```
 
 ### DroNetV3_car
