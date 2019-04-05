@@ -11,7 +11,6 @@ This repository is based on [pytorch-yolo-v3](https://github.com/ayooshkathuria/
 
 ```
 sudo -H pip3 install torch==0.4.0
-
 ```
 
 Using PyTorch 0.3 will break the detector.
